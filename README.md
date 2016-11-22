@@ -12,3 +12,5 @@ http://thistlefarms.org/pages/we-are-standing-on-new-ground
 Kindful Campaign
 
 https://thistlefarms.kindful.com/campaigns/255130?utf8=%E2%9C%93&campaigns=255130&amount=10
+
+![alt tag](https://github.com/ben2d2/thistle-farms/blob/master/images/screen-shot-2016-11-21-10.34.24PM.png)
