@@ -1,0 +1,262 @@
+<style>
+  .hc-video {
+    display: block;
+    margin: 40px 0;
+  }
+  .hc-quote {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    color: #6C8581;
+  }
+
+  .hc-copy {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+	.hc-donation-descriptions {
+		border: 1px solid #6C8581;
+		border-radius: 3px;
+	}
+
+  #hc-form input {
+    max-width: 140px;
+    border-color: #6C8581;
+    margin: 0 5px;
+    display: inline-block;
+    float: left;
+  }
+
+  #hc-form button {
+    margin: 0 5px;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 5px;
+    border-radius: 2px;
+    background-color: #00594c;
+    color: #ffffff;
+    font-weight: bold;
+    min-width: 140px;
+  }
+
+	#hc-form button.sm-btn {
+		font-size: 16px;
+		min-width: 95px;
+	}
+
+  #hc-form button.hc-active {
+    background-color: #00806c;
+  }
+
+  .hc-donation-description {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  #hc-images {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+		padding: 10px;
+  }
+
+  @media screen and (max-width:760px) {
+    .small-hidden {
+      display: none;
+    }
+  }
+  @media screen and (min-width:760px) {
+    .large-hidden {
+      display: none;
+    }
+  }
+</style>
+<section>
+	<!-- LARGE LAYOUT -->
+	<div class="small-hidden">
+		<div class="container">
+	    <div class="sixteen columns">
+	      <h3>
+	        FROM A PAST FILLED WITH ABUSE, ADDICTION, PROSTITUTION AND TRAFFICKING, WOMEN COME TO THISTLE FARMS TO CLAIM NEW GROUND FOR THEIR LIVES.
+	      </h3>
+	      <p class="hc-quote">
+	        "We can't stand still and wait for justice, we have to keep walking - towards freedom, compassion, and love - til we stand on new ground." <small>Founder & President, Becca Stevens</small>
+	      </p>
+	    </div>
+		</div>
+		<div class="container">
+	    <div class="sixteen columns">
+	      <img src="https://cdn.shopify.com/s/files/1/0578/6325/files/primary-wide.png?17491319967385166645"/>
+	    </div>
+		</div>
+		<div class="container">
+	    <div class="sixteen columns">
+	      <h3>Please consider a gift</h3>
+	      <p class="hc-copy">
+	        Help us prepare the ground for all of the new women who will be taking their first steps towards freedom and love in the year ahead.
+	      </p>
+	      <div id="hc-form">
+	        <button class="hc-active" data-id="100" onclick="selectLevel('100')">$100.00</button>
+	        <button data-id="250" onclick="selectLevel('250')">$250.00</button>
+	        <button data-id="500" onclick="selectLevel('500')">$500.00</button>
+	        <button data-id="1000" onclick="selectLevel('1000')">$1000.00</button>
+	        <input type="text" placeholder="Other amount" />
+	        <button class="hc-submit" onclick="submitToKindful()">Submit</button>
+	      </div>
+	    </div>
+		</div>
+		<div class="container">
+	    <div class="sixteen columns hc-donation-descriptions">
+	      <div id="hc-images">
+	        <div class="hc-donation-description hc-meta">
+	          <h3 class="hc-title">Clothing</h3>
+	          <p class="hc-copy">Women coming from the streets or from jail usually come with only the clothes they are wearing. This gift ​will provide ​P​Js, undergarments, and clothing basics, purchased just for her!</p>
+	        </div>
+	        <div class="hc-donation-description hc-images-container">
+	          <img src="https://cdn.shopify.com/s/files/1/0578/6325/files/100-clothing.png?7491516845547026506"/>
+	        </div>
+	      </div>
+	    </div>
+		</div>
+		<div class="container">
+	    <div class="sixteen columns">
+        <h3>Watch this message from Becca, Hal and our 2016 Graduates that celebrates NEW GROUND for each of them and Thistle Farms in the coming year.</h3>
+	      <div class="hc-video">
+	        <iframe width="1080" height="400" src="https://www.youtube.com/embed/RSDNxk_CdaI" frameborder="0" allowfullscreen=""></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- LARGE LAYOUT -->
+
+	<!-- SMALL LAYOUT -->
+	<div class="large-hidden">
+		<div class="container">
+	    <div class="sixteen columns">
+	      <p class="hc-quote">
+	        "We can't stand still and wait for justice, we have to keep walking - towards freedom, compassion, and love - til we stand on new ground." <small>Founder & President, Becca Stevens</small>
+	      </p>
+				<p class="hc-copy"><small>Watch this message from Becca, Hal and our 2016 Graduates that celebrates NEW GROUND for each of them and Thistle Farms in the coming year.</small></p>
+	      <div class="hc-video">
+	        <iframe width="1080" height="800" src="https://www.youtube.com/embed/RSDNxk_CdaI" frameborder="0" allowfullscreen=""></iframe>
+	      </div>
+	    </div>
+		</div>
+		<div class="container">
+	    <div class="six columns">
+	      <h3>FROM A PAST FILLED WITH ABUSE, ADDICTION, PROSTITUTION AND TRAFFICKING, WOMEN COME TO THISTLE FARMS TO CLAIM NEW GROUND FOR THEIR LIVES.</h3>
+	    </div>
+	    <div class="eight columns">
+	      <img src="https://cdn.shopify.com/s/files/1/0578/6325/files/primary-wide.png?17491319967385166645"/>
+	    </div>
+		</div>
+		<div class="container">
+	    <div class="sixteen columns">
+	      <h3>Please consider a gift</h3>
+	      <p class="hc-copy">
+	        Help us prepare the ground  for all of the new women who will be taking their first steps towards freedom and love in the year ahead.
+	      </p>
+	      <div id="hc-form">
+	        <select class="hc-mobile-amount-select" onchange="selectLevel(this.value);">
+	          <option value="100" selected="selected">$100.00</option>
+	          <option value="250">$250.00</option>
+	          <option value="500">$500.00</option>
+	          <option value="1000">$1000.00</option>
+	        </select>
+	        <input type="text" placeholder="Other" />
+	        <button class="sm-btn" onclick="submitToKindful()">Submit</button>
+	      </div>
+	    </div>
+		</div>
+		<div class="container">
+	    <div class="sixteen columns">
+	      <div id="hc-images" class="hc-donation-descriptions">
+	        <div class="hc-images-container">
+	          <img src="https://cdn.shopify.com/s/files/1/0578/6325/files/100-clothing.png?7491516845547026506"/>
+	        </div>
+	        <div class="hc-meta">
+	          <h3 class="hc-title">Clothing</h3>
+	          <div class="hc-copy">Women coming from the streets or from jail usually come with only the clothes they are wearing. This gift ​will provide ​P​Js, undergarments, and clothing basics, purchased just for her!</div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- SMALL LAYOUT -->
+</section>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+	$("#hc-form input").keyup(function() {
+    deactivateButton();
+  });
+
+  var levelDetails = [
+    { id: "100", amount: 100.00, image: "https://cdn.shopify.com/s/files/1/0578/6325/files/100-clothing.png?7491516845547026506", title: "Clothing", details: "Women coming from the streets or from jail usually come with only the clothes they are wearing. This gift ​will provide ​P​Js, undergarments, and clothing basics, purchased just for her!" },
+    { id: "250", amount: 250.00, image: "https://cdn.shopify.com/s/files/1/0578/6325/files/250-food.png?7491516845547026506", title: "Food", details: "In the first 3 months, residents are asked to focus on eating and resting, attend medical and dental visits, group meetings, and intensive outpatient therapy. $250.00 provides a woman with a food and necessities stipend during this critical time ​before she begins earning her own income ​at our social enterprises." },
+    { id: "500", amount: 500.00, image: "https://cdn.shopify.com/s/files/1/0578/6325/files/500-counseling.png?7491516845547026506", title: "Counseling", details: "The majority of residents at Thistle Farms experienced sexual abuse as a child, ​as well as rape and sexual violence during their years on the streets. This gift will ​provide a women eight sessions with a therapist who specializes in sexual assault to address her trauma and help her find healing." },
+    { id: "1000", amount: 1000.00, image: "https://cdn.shopify.com/s/files/1/0578/6325/files/1000-independence.png?7491516845547026506", title: "Independence", details: "This gift allows us to match a woman's savings from her job at Thistle Farms, dollar for dollar, to use towards her first car or apartment as she gets closer to graduation. ​This level of giving also designates you as part of our Light Bearers Circle, compromised of supporters ​contributing $1,000+ annually to ensure that each woman receives life-changing opportunities to help her become independent. " }
+  ];
+
+  function filtered(id) {
+    return $.grep(levelDetails, function(e){ return e.id == id; })[0]
+  }
+
+  function selectLevel(id) {
+    clearInput();
+    setButtonState(id);
+    setElements(filtered(id));
+  }
+
+  function clearInput() {
+    $("#hc-form input").val("")
+  }
+
+  function deactivateButton() {
+    $("button.hc-active").removeClass("hc-active");
+  }
+
+  function setButtonState(id) {
+    deactivateButton();
+    $button = $("button[data-id='"+ id +"']");
+    $button.addClass("hc-active");
+  }
+
+  function setElements(level) {
+    setImage(level.image);
+    setTitle(level.title);
+    setDetails(level.details);
+  }
+
+  function setImage(image) {
+    $("#hc-images img")[0].src = image;
+    $("#hc-images img")[1].src = image;
+  }
+
+  function setTitle(title) {
+    $("#hc-images .hc-title").text(title);
+  }
+
+  function setDetails(details) {
+    $("#hc-images .hc-copy").text(details);
+  }
+
+  function submitToKindful() {
+    var otherAmount = $("#hc-form input").val()
+    if (otherAmount.length) {
+      var amount = otherAmount;
+    } else if ($("button.hc-active").length) {
+      var amount = $("button.hc-active").data("id")
+    } else {
+      var amount = $(".hc-mobile-amount-select").val()
+    }
+    var url = "https://thistlefarms.kindful.com/campaigns/255130?utf8=✓&campaigns=255130&amount="+amount
+    window.open(url)
+  }
+</script>
