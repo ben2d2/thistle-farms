@@ -4,7 +4,7 @@ This is a pro-bono project I've done for the last couple of years for the charit
 
 The site is hosted on Shopify so all resources, stylesheets, scripts and markup are all in index.html. There is a nice embedded video, some simple interactive bits to select the donation amount or input _Other_ and a simple `window.open()` call to a campaign page on Kindful.
 
-####We are Standing on New Ground!
+#### We are Standing on New Ground!
 If you feel compelled to donate...
 
 http://thistlefarms.org/pages/we-are-standing-on-new-ground
